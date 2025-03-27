@@ -1,15 +1,15 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Guangzhou Foreign Language School, Guangzhou, China.
+subtitle: <a href='#'>Affiliations</a>. Guangzhou Foreign Language School (GFLS), Guangzhou, China.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Rehearsal of Guangzhou Foreign School Symphony Orchestra</p>
+    <p>Rehearsal of GFLS Symphony Orchestra</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
