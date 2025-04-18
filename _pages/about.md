@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Guangzhou Foreign Language School (GZFLS), Guangzhou City, China.
+subtitle: Guangzhou Foreign Language School (GZFLS), Guangzhou City, China.
 
 profile:
   align: right
@@ -25,9 +25,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! Here is a personal website of a high school girl, a language & music lover.Link to your favorite [subreddit](http://reddit.com). 
-Here is some picture of mine and my works. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! Here is a personal website of a high school girl, a language & music lover.
+You can enjoy my music on [subreddit](http://reddit.com). 
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-WechatThis theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. 
+Wechat:wxid_l7ofurowqy2f22
+Rednote:26283177020
