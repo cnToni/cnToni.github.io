@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 7
+title: Orchestra
 description: with background image
 img: assets/img/toni-orchestra-202503.jpg
 importance: 1
