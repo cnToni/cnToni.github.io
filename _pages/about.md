@@ -25,11 +25,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! Here is a personal website of a high school girl, a language & music lover.
+Welcome! Here is a personal website of a high school girl, Toni Chen or Zitong Chen.
+
+About me:
+A language & music lover
+A game developer, composer
+
+Works:
 You can enjoy my music on [subreddit](http://reddit.com). 
+Enjoy my game:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. 
 Wechat:wxid_l7ofurowqy2f22
-Rednote:26283177020
+Rednote:26283177020  to view my notes
+Wechat Public:      to view my articles
