@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Zitong Chen
     - name: Date of Birth
-      value: 14th March 1879
+      value: 30th December 2008
     - name: Languages
-      value: English, German
+      value: Chinese, English, German, France
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: High school
+      institution: Guangzhou Foreign Language School
+      year: 2024
       description:
         - Description 1.
         - Description 2.
@@ -48,9 +48,9 @@
         - Description 1.
         - Description 2.
 
-    - title: Director
+    - title: Chair cello 
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+      year: 2024
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
