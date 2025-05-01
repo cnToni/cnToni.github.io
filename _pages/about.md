@@ -36,5 +36,7 @@ You can enjoy my music on [subreddit](http://reddit.com).
 Enjoy my game:
 
 Wechat:wxid_l7ofurowqy2f22
+
 Rednote:26283177020  to view my notes
+
 Wechat Public:      to view my articles
