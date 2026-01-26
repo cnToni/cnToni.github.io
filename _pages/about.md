@@ -6,10 +6,10 @@ subtitle: Guangzhou Foreign Language School (GZFLS), Guangzhou City, China.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: toni-team-activity-20250606.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Rehearsal of GZFLS Symphony Orchestra</p>
+    <p>Beach Boat Blitz</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
