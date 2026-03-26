@@ -1,0 +1,87 @@
+/* Welcome Banner Styles */
+.welcome-container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.welcome-banner {
+    background-color: #f8fdf8;
+    border-left: 5px solid #90EE90;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(144, 238, 144, 0.1);
+    text-align: center;
+}
+
+.welcome-title {
+    color: #228B22;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.welcome-messages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.language-greeting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    background-color: #E8F5E8;
+    border-radius: 10px;
+    min-width: 150px;
+}
+
+.language-greeting:hover {
+    background-color: #D4EDD4;
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+flag-icon {
+    font-size: 24px;
+}
+
+.greeting-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2E8B57;
+}
+
+.welcome-description {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Introduction section background */
+.clearfix.introduction-section {
+    background-color: #F0FFF0 !important;
+    padding: 25px !important;
+    border-radius: 10px !important;
+    margin-top: 30px !important;
+}
+```
+
+#### **2. 修改 HTML**
+在你的 `index.html` 文件中：
+
+1. **在 `<head>` 中添加 CSS 链接**：
+```html
+<link rel="stylesheet" href="/assets/css/custom.css?v=1">
+```
+
+2. **在 `<header>` 后添加欢迎横幅**：
+```html
+<!-- Welcome Banner -->
+<div id="welcome-section" class="welcome-container">
+    <div class="welcome-banner">
+        <h1 class="welcome-title">Welcome</h1>
+        <div
