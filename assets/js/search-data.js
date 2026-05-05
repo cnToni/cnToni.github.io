@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
@@ -412,9 +405,9 @@ ninja.data = [{
           section: "News",},{id: "news-chosen-as-member-of-team-macau-to-iypt-competition",
           title: 'Chosen as member of team Macau to IYPT competition',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-iypt-2025",
+          title: 'IYPT, 2025',
+          description: "International Young Physicists&#39; Tournament, Lund, Sweden, 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
@@ -442,9 +435,9 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-orchestra",
-          title: 'Orchestra',
-          description: "with background image",
+            },},{id: "projects-phoenix-orchestra",
+          title: 'Phoenix Orchestra',
+          description: "Guangzhou Foreign Language School Symphony Orchestra",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
