@@ -2,7 +2,7 @@
 layout: page
 title: IYPT, 2025
 description: International Young Physicists' Tournament, Lund, Sweden, 2025
-img: assets/img/12.jpg
+img: assets/img/IYPT-2025.jpg
 importance: 1
 category: work
 related_publications: true
