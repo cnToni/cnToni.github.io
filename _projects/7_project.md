@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Orchestra
-description: with background image
+title: Phoenix Orchestra
+description: Guangzhou Foreign Language School Symphony Orchestra
 img: assets/img/toni-orchestra-202503.jpg
 importance: 1
 category: work
