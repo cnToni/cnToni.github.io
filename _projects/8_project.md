@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Phoenix Orchestra
+description: Guangzhou Foreign Language School Symphony Orchestra
+img: assets/img/toni-orchestra-202503.jpg
 importance: 2
-category: work
+category: fun
 giscus_comments: true
 ---
 

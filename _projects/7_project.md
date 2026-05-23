@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Phoenix Orchestra
-description: Guangzhou Foreign Language School Symphony Orchestra
-img: assets/img/toni-orchestra-202503.jpg
-importance: 2
+title: Promoting cantonese and serving the community
+description: Promoting cantonese and serving the community
+img: assets/img/kindergarten-teaching.jpg
+importance: 3
 category: work
 related_publications: true
 ---
