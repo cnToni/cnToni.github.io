@@ -410,19 +410,19 @@ ninja.data = [{
           description: "International Young Physicists&#39; Tournament, Lund, Sweden, 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-birdwatching-and-broad-language-learning",
+          title: 'Birdwatching and broad language learning',
+          description: "A combination of fun and phonology research",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-promoting-cantonese-and-serving-the-community",
+          title: 'Promoting cantonese and serving the community',
+          description: "Promoting cantonese and serving the community",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
             },},{id: "projects-phoenix-orchestra",
           title: 'Phoenix Orchestra',
           description: "Guangzhou Foreign Language School Symphony Orchestra",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
