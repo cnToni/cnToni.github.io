@@ -49,7 +49,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    On the left, group photo after rehearsal. Right, leisure time 😊
 </div>
 
 The code is simple.
