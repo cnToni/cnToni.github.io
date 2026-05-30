@@ -1,31 +1,20 @@
 ---
 layout: page
 title: Birdwatching and broad language learning
-description: A combination of fun and phonology research
+description: A combination of fun and bioacoustic research.
 img: assets/img/young-birdwatcher.jpg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Started bird watching from age of 10 as a junior volunteer of Guangzhou Nature Association, now actively involved in avian conservation and bioacoustic research.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/junior-bird-watchers-20180520.jpg" title="junior volunteer in 2018" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/junior-bird-watchers-20180520.jpg" title="Junior volunteer in 2018" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dedicated-bird-conservationist.png" title="surban survey of swallow and swift nests" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dedicated-bird-conservationist.png" title="Urban nests survey of swallows and swifts" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dedicated-bird-conservationist-2.png" title="Raising awareness for swallow and swift conservation" class="img-fluid rounded z-depth-1" %}

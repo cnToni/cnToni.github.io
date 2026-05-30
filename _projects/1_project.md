@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IYPT, 2025
-description: International Young Physicists' Tournament, Lund, Sweden, 2025
+description: Representing Macau, China, my journey of International Young Physicists' Tournament, Lund, Sweden, 2025 is fantastic.
 img: assets/img/IYPT-2025.jpg
 importance: 1
 category: work
