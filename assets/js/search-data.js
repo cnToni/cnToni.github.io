@@ -407,22 +407,22 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-iypt-2025",
           title: 'IYPT, 2025',
-          description: "International Young Physicists&#39; Tournament, Lund, Sweden, 2025",
+          description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-birdwatching-and-broad-language-learning",
           title: 'Birdwatching and broad language learning',
-          description: "A combination of fun and phonology research",
+          description: "A combination of fun and bioacoustic research.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-promoting-cantonese-and-serving-the-community",
           title: 'Promoting cantonese and serving the community',
-          description: "Promoting cantonese and serving the community",
+          description: "Promoting the Cantonese language through community engagement and developing a linguistic awareness of my mother tongue",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-phoenix-orchestra",
           title: 'Phoenix Orchestra',
-          description: "Guangzhou Foreign Language School Symphony Orchestra",
+          description: "My cellist experience in Guangzhou Foreign Language School Symphony Orchestra",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
