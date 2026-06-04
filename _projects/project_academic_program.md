@@ -17,7 +17,7 @@ I was honored to be selected for the 2025 Young Talent Project, a competitive na
     </div>
 </div>
 <div class="caption">
-    The finallist announcement of 2025 Young Talent Project in Guangdong Province, China.<br><br>
+    The finalist announcement of 2025 Young Talent Project in Guangdong Province, China.<br>
     <a href="https://www.gdsh.com.cn/News/noticeView.aspx?AID=266858&FrontColumnID=489702" target="_blank" rel="noopener noreferrer">Official announcement in Chinese</a>
 </div>
 
