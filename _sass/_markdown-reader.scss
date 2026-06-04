@@ -1,0 +1,344 @@
+// Markdown Reader Component Styles
+// Provides a responsive markdown document viewer with TOC sidebar
+
+.markdown-reader {
+  display: flex;
+  border: 1px solid var(--global-border-color, #dee2e6);
+  border-radius: 8px;
+  overflow: hidden;
+  height: var(--reader-height, 800px);
+  background: var(--global-bg-color, #fff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 1.5rem 0;
+  position: relative;
+
+  // TOC Sidebar
+  .markdown-reader-toc {
+    width: 260px;
+    min-width: 260px;
+    border-right: 1px solid var(--global-border-color, #dee2e6);
+    background: var(--global-bg-color, #f8f9fa);
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s ease, min-width 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+
+    &.collapsed {
+      width: 0;
+      min-width: 0;
+      opacity: 0;
+      border-right: none;
+    }
+
+    .toc-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--global-border-color, #dee2e6);
+      background: var(--global-bg-color, #fff);
+
+      .toc-title {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--global-text-color, #333);
+        white-space: nowrap;
+      }
+
+      .toc-toggle {
+        background: none;
+        border: 1px solid var(--global-border-color, #dee2e6);
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 4px 6px;
+        color: var(--global-text-color, #666);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.2s;
+
+        &:hover {
+          background: var(--global-border-color, #e9ecef);
+        }
+      }
+    }
+
+    .toc-list {
+      list-style: none;
+      padding: 8px 0;
+      margin: 0;
+      overflow-y: auto;
+      flex: 1;
+
+      .toc-empty {
+        padding: 16px;
+        color: var(--global-text-color-light, #999);
+        font-size: 0.85rem;
+        text-align: center;
+      }
+
+      .toc-item {
+        a {
+          display: block;
+          padding: 6px 16px;
+          color: var(--global-text-color, #555);
+          text-decoration: none;
+          font-size: 0.85rem;
+          line-height: 1.4;
+          transition: background-color 0.2s, color 0.2s;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+
+          &:hover {
+            background: var(--global-hover-bg, rgba(0, 0, 0, 0.04));
+            color: var(--global-theme-color, #7951b8);
+          }
+
+          &.active {
+            color: var(--global-theme-color, #7951b8);
+            font-weight: 600;
+            background: var(--global-hover-bg, rgba(121, 81, 184, 0.08));
+            border-left: 3px solid var(--global-theme-color, #7951b8);
+            padding-left: 13px;
+          }
+        }
+
+        // Indentation for sub-levels
+        &.toc-level-1 a { padding-left: 28px; }
+        &.toc-level-2 a { padding-left: 40px; }
+        &.toc-level-3 a { padding-left: 52px; }
+      }
+    }
+  }
+
+  // Content Area
+  .markdown-reader-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 32px;
+    scroll-behavior: smooth;
+
+    // Loading state
+    .markdown-reader-loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      color: var(--global-text-color-light, #999);
+
+      .loading-spinner {
+        width: 32px;
+        height: 32px;
+        border: 3px solid var(--global-border-color, #e9ecef);
+        border-top-color: var(--global-theme-color, #7951b8);
+        border-radius: 50%;
+        animation: md-reader-spin 0.8s linear infinite;
+        margin-bottom: 12px;
+      }
+
+      span {
+        font-size: 0.9rem;
+      }
+    }
+
+    // Error state
+    .markdown-reader-error {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      color: #dc3545;
+
+      p {
+        padding: 16px 24px;
+        background: #fff5f5;
+        border-radius: 6px;
+        border: 1px solid #fecdd3;
+        font-size: 0.9rem;
+      }
+    }
+
+    // Rendered markdown body
+    .markdown-body {
+      h1, h2, h3, h4, h5, h6 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        color: var(--global-text-color, #333);
+        scroll-margin-top: 20px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+
+      h1 { font-size: 1.6rem; border-bottom: 1px solid var(--global-border-color, #eee); padding-bottom: 0.3em; }
+      h2 { font-size: 1.4rem; border-bottom: 1px solid var(--global-border-color, #eee); padding-bottom: 0.3em; }
+      h3 { font-size: 1.2rem; }
+      h4 { font-size: 1.05rem; }
+
+      p {
+        margin-bottom: 1em;
+        line-height: 1.7;
+        color: var(--global-text-color, #444);
+      }
+
+      a {
+        color: var(--global-theme-color, #7951b8);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      code {
+        background: var(--global-code-bg, #f1f3f5);
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 0.9em;
+      }
+
+      pre {
+        background: var(--global-code-bg, #f6f8fa);
+        border-radius: 6px;
+        padding: 16px;
+        overflow-x: auto;
+        margin-bottom: 1em;
+
+        code {
+          background: none;
+          padding: 0;
+          font-size: 0.85rem;
+          line-height: 1.5;
+        }
+      }
+
+      blockquote {
+        border-left: 4px solid var(--global-theme-color, #7951b8);
+        padding: 8px 16px;
+        margin: 1em 0;
+        color: var(--global-text-color-light, #666);
+        background: var(--global-hover-bg, rgba(0, 0, 0, 0.02));
+        border-radius: 0 4px 4px 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1em;
+
+        th, td {
+          border: 1px solid var(--global-border-color, #dee2e6);
+          padding: 8px 12px;
+          text-align: left;
+        }
+
+        th {
+          background: var(--global-bg-color, #f8f9fa);
+          font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+          background: var(--global-hover-bg, rgba(0, 0, 0, 0.02));
+        }
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+
+      ul, ol {
+        padding-left: 2em;
+        margin-bottom: 1em;
+      }
+
+      li {
+        margin-bottom: 0.3em;
+        line-height: 1.6;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid var(--global-border-color, #dee2e6);
+        margin: 2em 0;
+      }
+    }
+  }
+}
+
+// Spinner animation
+@keyframes md-reader-spin {
+  to { transform: rotate(360deg); }
+}
+
+// Responsive: collapse TOC on small screens
+@media (max-width: 768px) {
+  .markdown-reader {
+    flex-direction: column;
+    height: auto;
+    min-height: var(--reader-height, 800px);
+
+    .markdown-reader-toc {
+      width: 100%;
+      min-width: 100%;
+      max-height: 200px;
+      border-right: none;
+      border-bottom: 1px solid var(--global-border-color, #dee2e6);
+
+      &.collapsed {
+        max-height: 0;
+        height: 0;
+        min-height: 0;
+        border-bottom: none;
+      }
+
+      .toc-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px 8px;
+
+        .toc-item {
+          a {
+            padding: 4px 10px;
+            font-size: 0.8rem;
+          }
+
+          &.toc-level-1 a,
+          &.toc-level-2 a,
+          &.toc-level-3 a {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+
+    .markdown-reader-content {
+      padding: 16px;
+      flex: 1;
+    }
+  }
+}
+
+// Dark mode support
+[data-theme="dark"] .markdown-reader,
+.dark .markdown-reader {
+  .markdown-reader-toc {
+    background: var(--global-bg-color, #1a1a2e);
+
+    .toc-header {
+      background: var(--global-bg-color, #16162a);
+    }
+  }
+
+  .markdown-reader-content {
+    .markdown-body {
+      h1, h2 {
+        border-bottom-color: var(--global-border-color, #333);
+      }
+    }
+  }
+}
