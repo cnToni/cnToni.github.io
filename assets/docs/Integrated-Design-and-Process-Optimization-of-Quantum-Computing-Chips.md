@@ -1,5 +1,5 @@
-# **量子计算芯片的集成化设计与工艺优化**
-# **Integrated Design and Process Optimization of Quantum Computing Chips**
+# 量子计算芯片的集成化设计与工艺优化
+# Integrated Design and Process Optimization of Quantum Computing Chips
 **广州外国语学校 陈子彤**
 
 **摘要**：量子计算芯片作为量子计算的核心，其集成化程度和工艺精度会直接影响量子计算系统的可扩展性和计算保真度。本文聚焦于量子计算芯片集成电路工艺，系统性回顾总结了目前主流的量子计算芯片设计工艺和存在的弊端；最后提出展望，提出了一些可能的改进方面和优化方案。
