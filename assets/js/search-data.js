@@ -420,16 +420,16 @@ ninja.data = [{
           description: "Promoting the Cantonese language through community engagement and developing a linguistic awareness of my mother tongue",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-phoenix-orchestra",
-          title: 'Phoenix Orchestra',
-          description: "My cellist experience in Guangzhou Foreign Language School Symphony Orchestra",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
+            },},{id: "projects-academic-programs",
+          title: 'Academic Programs',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/project_academic_program/";
             },},{
         id: 'social-email',
         title: 'email',
