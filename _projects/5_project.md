@@ -4,7 +4,7 @@ title: Birdwatching and broad language learning
 description: A combination of fun and bioacoustic research.
 img: assets/img/young-birdwatcher.jpg
 importance: 3
-category: work
+category: fun
 ---
 
 Started bird watching from age of 10 as a junior volunteer of Guangzhou Nature Association, now actively involved in avian conservation and bioacoustic research.

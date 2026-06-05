@@ -5,7 +5,6 @@ description: Notes, Nerves & Standing Ovations: My experience in Guangzhou Forei
 img: assets/img/toni-orchestra-202503.jpg
 importance: 2
 category: fun
-giscus_comments: true
 ---
 
 Joining the Phoenix Orchestra and play as chief cellist a few times, I feel deeply hornored and I'm touched by the beautiful harmony of tones and rhythms.

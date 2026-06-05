@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Academic Programs
-description: another project with an image 🎉
+description: Domestic and overseas academic programs
 img: assets/img/6.jpg
-importance: 4
-category: fun
+importance: 2
+category: work
 md_doc: assets/docs/Integrated-Design-and-Process-Optimization-of-Quantum-Computing-Chips.md
 md_height: 800px
 ---
