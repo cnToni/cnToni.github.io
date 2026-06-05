@@ -427,9 +427,9 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "projects-academic-programs",
           title: 'Academic Programs',
-          description: "another project with an image 🎉",
+          description: "Domestic and overseas academic programs",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/project_academic_program/";
+              window.location.href = "/projects/academic_programs/";
             },},{
         id: 'social-email',
         title: 'email',
