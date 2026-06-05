@@ -26,9 +26,6 @@ Joining the Phoenix Orchestra and play as chief cellist a few times, I feel deep
     On the left, rehearsal before a public performance. Middle, charity performance in 2025. Right, public performance in 2024.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
