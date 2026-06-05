@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of Toni&#39;s cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -420,16 +420,16 @@ ninja.data = [{
           description: "Promoting the Cantonese language through community engagement and developing a linguistic awareness of my mother tongue",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
             },},{id: "projects-academic-programs",
           title: 'Academic Programs',
           description: "Domestic and overseas academic programs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/academic_programs/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/phoenix-orchestra/";
             },},{
         id: 'social-email',
         title: 'email',
