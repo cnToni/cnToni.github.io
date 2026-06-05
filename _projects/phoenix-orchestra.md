@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Phoenix Orchestra
-description: Notes, Nerves & Standing Ovations: my experience in Guangzhou Foreign Language School Symphony Orchestra
+description: Notes, Nerves & Standing Ovations, my experience in Guangzhou Foreign Language School Symphony Orchestra
 img: assets/img/toni-orchestra-202503.jpg
 importance: 2
 category: fun
