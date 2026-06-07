@@ -410,11 +410,6 @@ ninja.data = [{
           description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IYPT-2025/";
-            },},{id: "projects-academic-programs",
-          title: 'Academic Programs',
-          description: "Domestic and overseas academic programs",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/academic-programs/";
             },},{id: "projects-birdwatching-and-broad-language-learning",
           title: 'Birdwatching and broad language learning',
           description: "A combination of fun and bioacoustic research.",
@@ -430,6 +425,11 @@ ninja.data = [{
           description: "Promoting the Cantonese language through community engagement and developing a linguistic awareness of my mother tongue",
           section: "Projects",handler: () => {
               window.location.href = "/projects/promoting-cantonese/";
+            },},{id: "projects-puzzles",
+          title: 'Puzzles',
+          description: "Designing linguistic puzzles for school media",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/puzzles/";
             },},{
         id: 'social-email',
         title: 'email',
