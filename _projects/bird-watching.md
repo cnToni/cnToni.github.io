@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Birdwatching and broad language learning
-description: A combination of fun and bioacoustic research.
+title: From birdwatching to bioacoustics
+description: A combination of fun and birdsong research.
 img: assets/img/young-birdwatcher.jpg
 importance: 3
 category: Interest
