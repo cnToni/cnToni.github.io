@@ -4,7 +4,7 @@ title: Phoenix Orchestra
 description: Notes, Nerves & Standing Ovations, my experience in Guangzhou Foreign Language School Symphony Orchestra
 img: assets/img/toni-orchestra-202503.jpg
 importance: 2
-category: fun
+category: Interest
 ---
 
 Joining the Phoenix Orchestra and play as chief cellist a few times, I feel deeply hornored and I'm touched by the beautiful harmony of tones and rhythms.
