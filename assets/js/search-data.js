@@ -410,9 +410,9 @@ ninja.data = [{
           description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IYPT-2025/";
-            },},{id: "projects-birdwatching-and-broad-language-learning",
-          title: 'Birdwatching and broad language learning',
-          description: "A combination of fun and bioacoustic research.",
+            },},{id: "projects-from-birdwatching-to-bioacoustics",
+          title: 'From birdwatching to bioacoustics',
+          description: "A combination of fun and birdsong research.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bird-watching/";
             },},{id: "projects-phoenix-orchestra",
