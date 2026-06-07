@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Academic Programs
-description: Domestic and overseas academic programs
+title: Puzzles
+description: Designing linguistic puzzles for school media
 img: assets/img/6.jpg
 importance: 2
 category: work
