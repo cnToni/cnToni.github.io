@@ -4,7 +4,7 @@ title: Promoting cantonese and serving the community
 description: Promoting the Cantonese language through community engagement and developing a linguistic awareness of my mother tongue 
 img: assets/img/kindergarten-teaching.jpg
 importance: 3
-category: work
+category: Work
 related_publications: true
 ---
 

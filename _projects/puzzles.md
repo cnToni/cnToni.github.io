@@ -4,7 +4,7 @@ title: Puzzles
 description: Designing linguistic puzzles for school media
 img: assets/img/6.jpg
 importance: 2
-category: work
+category: Work
 md_doc: assets/docs/Integrated-Design-and-Process-Optimization-of-Quantum-Computing-Chips.md
 md_height: 800px
 ---
