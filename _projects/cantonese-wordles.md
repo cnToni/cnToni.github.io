@@ -7,15 +7,8 @@ importance: 10
 category: Work
 ---
 
-这个页面展示的是一个适配 GitHub Pages 的静态小游戏版本。
-原始项目依赖 `Next.js + TypeScript + API Route + Supabase`，无法直接部署到 `al-folio` 的 Jekyll 站点中。
-因此这里改为纯前端 JavaScript 方案，保留核心玩法，同时去掉服务端依赖。
-
-对用户的影响：
-
-- 页面可以直接托管在 GitHub Pages 上，加载和部署都更稳定。
-- 每日题目按北京时间轮换，保持“每天一题”的体验。
-- 当前浏览器会保存当天进度，刷新页面不会丢失已找到的单词。
+This is a Cantonese wordle game updated everyday.
+Enjoy your Cantonese time!
 
 <style>
   .cantonese-wordles-embed {
