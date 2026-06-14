@@ -62,7 +62,18 @@
   }
 
   /**
-   * 基于日期稳定选题，替代原来依赖服务端和数据库的每日出题流程。
+   * 使用日期字符串生成稳定哈希，让每日题目表现为随机但刷新后保持一致。
+   * @param {string} dateId
+   * @returns {number}
+   */
+  function getDailySeed(dateId) {
+    return dateId.split("").reduce(function hashDate(total, character) {
+      return (total * 31 + character.charCodeAt(0)) >>> 0;
+    }, 2166136261);
+  }
+
+  /**
+   * 基于日期稳定随机选题，替代原来依赖服务端和数据库的每日出题流程。
    * @param {string} dateId
    * @returns {{grid: string[][], words: Array<{jyutping: string, character: string, definition: string, example: string}>}}
    */
@@ -71,8 +82,7 @@
     if (!puzzles.length) {
       throw new Error("Puzzle data is missing.");
     }
-    const numericDate = Number(dateId.replace(/-/g, ""));
-    const index = numericDate % puzzles.length;
+    const index = getDailySeed(dateId) % puzzles.length;
     return puzzles[index];
   }
 
