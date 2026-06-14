@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A growing collection of Toni&#39;s cool projects.",
           section: "Navigation",
           handler: () => {
@@ -415,6 +415,11 @@ ninja.data = [{
           description: "A combination of fun and birdsong research.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bird-watching/";
+            },},{id: "projects-cantonese-wordles",
+          title: 'Cantonese Wordles',
+          description: "A daily Cantonese Jyutping puzzle migrated from Next.js to static JavaScript for GitHub Pages.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cantonese-wordles/";
             },},{id: "projects-phoenix-orchestra",
           title: 'Phoenix Orchestra',
           description: "Notes, Nerves &amp; Standing Ovations, my experience in Guangzhou Foreign Language School Symphony Orchestra",
