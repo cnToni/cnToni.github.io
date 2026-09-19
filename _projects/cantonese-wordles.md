@@ -2,7 +2,7 @@
 layout: page
 title: Cantonese Wordles
 description: A daily Cantonese Jyutping puzzle designed for school media.
-img: assets/img/10.jpg
+img: assets/img/cantonese-wordles.png
 importance: 10
 category: Work
 ---
