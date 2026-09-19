@@ -417,7 +417,7 @@ ninja.data = [{
               window.location.href = "/projects/bird-watching/";
             },},{id: "projects-cantonese-wordles",
           title: 'Cantonese Wordles',
-          description: "A daily Cantonese Jyutping puzzle migrated from Next.js to static JavaScript for GitHub Pages.",
+          description: "A daily Cantonese Jyutping puzzle designed for school media.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cantonese-wordles/";
             },},{id: "projects-phoenix-orchestra",
@@ -430,11 +430,11 @@ ninja.data = [{
           description: "Promoting the Cantonese language through community engagement and developing a linguistic awareness of my mother tongue",
           section: "Projects",handler: () => {
               window.location.href = "/projects/promoting-cantonese/";
-            },},{id: "projects-puzzles",
-          title: 'Puzzles',
-          description: "Designing linguistic puzzles for school media",
+            },},{id: "projects-yong-talent-2025-project",
+          title: 'Yong Talent 2025 Project',
+          description: "Hands-on research with team members and universities acr.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/puzzles/";
+              window.location.href = "/projects/young-talent-2025/";
             },},{
         id: 'social-email',
         title: 'email',
