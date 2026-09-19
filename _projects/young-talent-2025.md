@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Yong Talent 2025 Project
-description: Hands-on research with team members and universities acr.
+description: Hands-on research with team members and universities across China.
 img: assets/img/young-talent-2025.jpg
 importance: 2
 category: Work
