@@ -432,7 +432,7 @@ ninja.data = [{
               window.location.href = "/projects/promoting-cantonese/";
             },},{id: "projects-yong-talent-2025-project",
           title: 'Yong Talent 2025 Project',
-          description: "Hands-on research with team members and universities acr.",
+          description: "Hands-on research with team members and universities across China.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/young-talent-2025/";
             },},{
