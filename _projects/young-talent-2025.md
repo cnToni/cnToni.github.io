@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Puzzles
-description: Designing linguistic puzzles for school media
-img: assets/img/6.jpg
+title: Yong Talent 2025 Project
+description: Hands-on research with team members and universities acr.
+img: assets/img/young-talent-2025.jpg
 importance: 2
 category: Work
 md_doc: assets/docs/Integrated-Design-and-Process-Optimization-of-Quantum-Computing-Chips.md
