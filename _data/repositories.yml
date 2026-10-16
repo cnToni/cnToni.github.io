@@ -4,5 +4,4 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - deepseek-ai/DeepSeek-V3
-  - google-deepmind/alphafold
+  - gzfls-cantonese/gzfls-cantonese.net

@@ -2,10 +2,24 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: open-source code repositories behind my projects.
 nav: true
 nav_order: 4
 ---
+
+## Featured repository
+
+[gzfls-cantonese.net](https://github.com/gzfls-cantonese/gzfls-cantonese.net) is the open-source website of *品三國 · 識粵語*, a Cantonese pingshu (storytelling) archive. Written in TypeScript (MIT license), it publishes 157 episodes and 39,173 aligned text segments of Zhang Yuekai's classic *Romance of the Three Kingdoms* recordings; the Cantonese corpus comes from Hugging Face ([CanCLID/zoengjyutgaai](https://huggingface.co/datasets/CanCLID/zoengjyutgaai), CC0 1.0).
+
+{% include figure.liquid
+  path="assets/img/gzfls-cantonese-net.png"
+  alt="Screenshot of the gzfls-cantonese.net homepage showing the Cantonese pingshu episode archive"
+  class="img-fluid rounded z-depth-1"
+  width="80%"
+  avoid_scaling=true
+  zoomable=true
+  caption="Homepage of <a href='https://gzfls-cantonese.net'>gzfls-cantonese.net</a> — 品三國 · 識粵語, an archive of 157 Cantonese pingshu episodes and 39,173 segments."
+%}
 
 {% if site.data.repositories.github_users %}
 
