@@ -9,7 +9,8 @@ nav_order: 4
 
 ## Featured repository
 
-[gzfls-cantonese.net](https://github.com/gzfls-cantonese/gzfls-cantonese.net) is the open-source website of *品三國 · 識粵語*, a Cantonese pingshu (storytelling) archive. Written in TypeScript (MIT license), it publishes 157 episodes and 39,173 aligned text segments of Zhang Yuekai's classic *Romance of the Three Kingdoms* recordings; the Cantonese corpus comes from Hugging Face ([CanCLID/zoengjyutgaai](https://huggingface.co/datasets/CanCLID/zoengjyutgaai), CC0 1.0).
+[gzfls-cantonese.net](https://github.com/gzfls-cantonese/gzfls-cantonese.net) is an open-source TypeScript project for *品三國 · 識粵語*, a website for exploring Cantonese storytelling recordings and practicing Cantonese pronunciation. It contains 157 episodes and 39,173 aligned transcript segments from Zhang Yuekai's well-known recordings of *Romance of the Three Kingdoms*. The source code is licensed under the MIT License, while the Cantonese corpus is derived from [CanCLID/zoengjyutgaai](https://huggingface.co/datasets/CanCLID/zoengjyutgaai), licensed under CC0 1.0.
+
 
 {% include figure.liquid
   path="assets/img/gzfls-cantonese-net.png"
