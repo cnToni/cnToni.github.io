@@ -398,9 +398,9 @@ ninja.data = [{
           description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IYPT-2025/";
-            },},{id: "projects-sip-summer-school-2025",
-          title: 'SIP summer school , 2025',
-          description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SIP-2026/";
             },},{id: "projects-from-birdwatching-to-bioacoustics",
