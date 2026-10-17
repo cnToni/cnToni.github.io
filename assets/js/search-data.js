@@ -387,28 +387,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-chosen-as-member-of-team-macau-to-iypt-international-youth-physicists-tournament-2025-competition",
+            },},{id: "news-chosen-as-member-of-team-macau-to-iypt-international-youth-physicists-tournament-2025-competition",
           title: 'Chosen as member of team Macau to IYPT (International Youth Physicists’ Tournament) 2025...',
           description: "",
-          section: "News",},{id: "news-chosen-as-member-of-team-macau-to-iypt-competition",
-          title: 'Chosen as member of team Macau to IYPT competition',
-          description: "",
-          section: "News",},{id: "news-chosen-as-member-of-team-macau-to-iypt-international-youth-physicists-tournament-2025-competition",
-          title: 'Chosen as member of team Macau to IYPT (International Youth Physicists’ Tournament) 2025...',
+          section: "News",},{id: "news-admitted-to-the-university-of-california-santa-cruz-scholar-immersion-program-sip-for-the-summer",
+          title: 'Admitted to the University of California, Santa Cruz Scholar Immersion Program (SIP) for...',
           description: "",
           section: "News",},{id: "projects-iypt-2025",
           title: 'IYPT, 2025',
           description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IYPT-2025/";
+            },},{id: "projects-sip-summer-school-2025",
+          title: 'SIP summer school , 2025',
+          description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SIP-2026/";
             },},{id: "projects-from-birdwatching-to-bioacoustics",
           title: 'From birdwatching to bioacoustics',
           description: "A combination of fun and birdsong research.",
