@@ -398,9 +398,9 @@ ninja.data = [{
           description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IYPT-2025/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-sip-summer-program-ucsc-2026",
+          title: 'SIP summer program, UCSC, 2026',
+          description: "Researching Social Movements - Perspectives from UC Santa Cruz&#39;s Scholar Immersion Program.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SIP-2026/";
             },},{id: "projects-from-birdwatching-to-bioacoustics",
