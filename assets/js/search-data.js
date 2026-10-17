@@ -436,18 +436,11 @@ ninja.data = [{
           window.open("mailto:%74%6F%6E%69.%63%68%65%6E%7A%69%74%6F%6E%67@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://github.com/cnToni", "_blank");
         },
       },{
       id: 'light-theme',
