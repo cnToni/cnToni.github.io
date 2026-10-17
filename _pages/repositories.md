@@ -19,7 +19,7 @@ nav_order: 4
   width="80%"
   avoid_scaling=true
   zoomable=true
-  caption="Homepage of <a href='https://gzfls-cantonese.net'>gzfls-cantonese.net</a> — 品三國 · 識粵語, an archive of 157 Cantonese pingshu episodes and 39,173 segments."
+  caption="Homepage of <a href='https://gzfls-cantonese.net'>gzfls-cantonese.net</a> — 品三國 · 識粵語, An archive of 157 Cantonese storytelling episodes with 39,173 aligned transcript segments."
 %}
 
 {% if site.data.repositories.github_users %}

@@ -25,18 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! Here is a personal website of a high school girl, Toni Chen or Zitong Chen.
+Welcome. I am Zitong (Toni) Chen, a student at Guangzhou Foreign Language School in Guangzhou, China.
 
-About me:
-A language & music lover
-A game developer, composer
-
-Works:
-You can enjoy my music on [subreddit](http://reddit.com). 
-Enjoy my game:
-
-Wechat:wxid_l7ofurowqy2f22
-
-Rednote:26283177020  to view my notes
-
-Wechat Public:      to view my articles
+I explore the intersection of language, music, games, and technology through independent research and creative projects. This website presents selected research papers, academic projects, music, birdwatching, and open-source work.
