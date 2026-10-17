@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Chosen as member of team Macau to IYPT (International Youth Physicists' Tournament) 2025 competition 
+Admitted to the [University of California, Santa Cruz Scholar Immersion Program (SIP)]({{ '/projects/SIP-2026' | relative_url }}) for the summer.

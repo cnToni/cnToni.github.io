@@ -3,7 +3,7 @@ layout: page
 title: Yong Talent 2025 Project
 description: Hands-on research with team members and universities across China.
 img: assets/img/young-talent-2025.jpg
-importance: 2
+importance: 3
 category: Work
 md_doc: assets/docs/Integrated-Design-and-Process-Optimization-of-Quantum-Computing-Chips.md
 md_height: 800px
