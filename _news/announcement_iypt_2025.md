@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Chosen as member of team Macau to IYPT (International Youth Physicists' Tournament) 2025 competition 
+Chosen as member of team Macao to IYPT (International Youth Physicists' Tournament) 2025 competition 
