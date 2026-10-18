@@ -13,13 +13,13 @@ nav_order: 4
 
 
 {% include figure.liquid
-  path="assets/img/gzfls-cantonese-net.png"
-  alt="Screenshot of the gzfls-cantonese.net homepage showing the Cantonese pingshu episode archive"
+  path="assets/img/gzfls-cantonese-code-repo.png"
+  alt="opensource code repository of gzfls-cantonese.net website"
   class="img-fluid rounded z-depth-1"
   width="80%"
   avoid_scaling=true
   zoomable=true
-  caption="Homepage of <a href='https://gzfls-cantonese.net'>gzfls-cantonese.net</a> — 品三國 · 識粵語, An archive of 157 Cantonese storytelling episodes with 39,173 aligned transcript segments."
+  caption="opensource code repository of gzfls-cantonese.net website"
 %}
 
 {% if site.data.repositories.github_users %}

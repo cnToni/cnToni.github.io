@@ -8,24 +8,25 @@ category: Work
 related_publications: true
 ---
 
-Cantonese is an essential part of Chinese culture
+Cantonese is an essential part of Chinese culture and also my mother tongue. I love to promote Cantonese and serve the community.
 
 
+{% include figure.liquid
+  path="assets/img/gzfls-cantonese-net.png"
+  alt="Screenshot of the gzfls-cantonese.net homepage showing the Cantonese pingshu episode archive"
+  class="img-fluid rounded z-depth-1"
+  width="80%"
+  avoid_scaling=true
+  zoomable=true
+  caption="Homepage of <a href='https://gzfls-cantonese.net'>gzfls-cantonese.net</a> — 品三國 · 識粵語, an archive of 157 Cantonese pingshu episodes and 39,173 segments."
+%}
 
-
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+{% include figure.liquid
+  path="assets/img/YueVoice-club-gzfls-2026.jpg"
+  alt="VueVoice club promotion in my high school GZFLS 2026"
+  class="img-fluid rounded z-depth-1"
+  width="80%"
+  avoid_scaling=true
+  zoomable=true
+  caption="YueVoice club promotion in my high school GZFLS 2026, I'm proud to be the founder and still supporting the club"
+%}
