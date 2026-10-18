@@ -387,15 +387,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-chosen-as-member-of-team-macau-to-iypt-international-youth-physicists-tournament-2025-competition",
-          title: 'Chosen as member of team Macau to IYPT (International Youth Physicists’ Tournament) 2025...',
+            },},{id: "news-chosen-as-member-of-team-macao-to-iypt-international-youth-physicists-tournament-2025-competition",
+          title: 'Chosen as member of team Macao to IYPT (International Youth Physicists’ Tournament) 2025...',
           description: "",
           section: "News",},{id: "news-admitted-to-the-university-of-california-santa-cruz-scholar-immersion-program-sip-for-the-summer",
           title: 'Admitted to the University of California, Santa Cruz Scholar Immersion Program (SIP) for...',
           description: "",
           section: "News",},{id: "projects-iypt-2025",
           title: 'IYPT, 2025',
-          description: "Representing Macau, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
+          description: "Representing Macao, China, my journey of International Young Physicists&#39; Tournament, Lund, Sweden, 2025 is fantastic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IYPT-2025/";
             },},{id: "projects-sip-summer-program-ucsc-2026",
