@@ -25,13 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Toni, a high school student building tools at the intersection 
-of technology and cultural preservation.
+Hi, I'm Toni (Zitong) Chen, a high school student in Guangzhou, China. I explore connections among language, culture, science, and technology.
 
+My projects include Cantonese learning tools, web development, and a collaborative study of social movement. I also take part in physics competitions and enjoy birdwatching and playing the cello.
 
-I'm drawn to problems where technology meets the humanities—especially 
-language preservation, the physics behind sound, and accessible information 
-design.
-
-
-You can find more in the [Projects](/projects), [Publications](/publications) and [Repositories](/repositories)sections.
+Explore my [Projects]({{ '/projects/' | relative_url }}), [Publications]({{ '/publications/' | relative_url }}), and [Repositories]({{ '/repositories/' | relative_url }}).
