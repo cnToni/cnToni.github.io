@@ -21,4 +21,6 @@ I was honored to be selected for the 2025 Young Talent Project, a competitive na
     <a href="https://www.gdsh.com.cn/News/noticeView.aspx?AID=266858&FrontColumnID=489702" target="_blank" rel="noopener noreferrer">Official announcement in Chinese</a>
 </div>
 
+<!--
 {% include markdown-reader.liquid path=page.md_doc height=page.md_height %}
+-->
