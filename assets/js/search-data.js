@@ -422,8 +422,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/phoenix-orchestra/";
             },},{id: "projects-promoting-cantonese-and-serving-the-community",
-          title: 'Promoting cantonese and serving the community',
-          description: "Promoting the Cantonese language through community engagement and developing a linguistic awareness of my mother tongue",
+          title: 'Promoting Cantonese and Serving the Community',
+          description: "Advancing Cantonese through community engagement while deepening my understanding of my mother tongue.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/promoting-cantonese/";
             },},{id: "projects-yong-talent-2025-project",
