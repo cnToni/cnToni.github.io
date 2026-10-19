@@ -387,8 +387,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-chosen-as-member-of-team-macao-to-iypt-international-youth-physicists-tournament-2025-competition",
-          title: 'Chosen as member of team Macao to IYPT (International Youth Physicists’ Tournament) 2025...',
+            },},{id: "news-chosen-as-member-of-team-macao-to-the-international-youth-physicists-tournament-iypt-2025-sweden-competition",
+          title: 'Chosen as member of team Macao to the International Youth Physicists’ Tournament (IYPT)...',
+          description: "",
+          section: "News",},{id: "news-selected-for-the-2025-national-high-school-student-young-talent-program-list-projects-young-talent-2025",
+          title: 'Selected for the 2025 National [“High School Student Young Talent Program”] list(/projects/young-talent-2025).',
           description: "",
           section: "News",},{id: "news-admitted-to-the-university-of-california-santa-cruz-scholar-immersion-program-sip-for-the-summer",
           title: 'Admitted to the University of California, Santa Cruz Scholar Immersion Program (SIP) for...',
