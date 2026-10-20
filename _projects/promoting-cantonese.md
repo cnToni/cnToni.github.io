@@ -13,15 +13,15 @@ Cantonese is an integral part of Chinese culture and my mother tongue. Cantonese
 I am committed to promoting Cantonese through community engagement. In 2025, I founded YueVoice, a Cantonese club at my high school.
 
 
-<div class="row justify-content-sm-center">
-  <div class="col-sm-7 mt-3 mt-md-0">
+<div class="row justify-content-sm-center flex-sm-nowrap">
+  <div class="col-sm mt-3 mt-md-0" style="flex-grow: 1.78;">
     {% include figure.liquid
       path="assets/img/kindergarten-teaching-2.jpg"
       alt="Cantonese Outreach Program for Kindergartens, 2025"
       class="img-fluid rounded z-depth-1"
     %}
   </div>
-  <div class="col-sm-5 mt-3 mt-md-0">
+  <div class="col-sm mt-3 mt-md-0" style="flex-grow: 1;">
     {% include figure.liquid
       path="assets/img/YueVoice-club-gzfls-2026.jpg"
       alt="YueVoice (Cantonese) club promotion in my high school, 2026"
