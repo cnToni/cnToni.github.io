@@ -426,8 +426,8 @@ ninja.data = [{
           description: "Advancing Cantonese through community engagement while deepening my understanding of my mother tongue.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/promoting-cantonese/";
-            },},{id: "projects-yong-talent-2025-project",
-          title: 'Yong Talent 2025 Project',
+            },},{id: "projects-national-young-talent-program-2025",
+          title: 'National Young Talent Program, 2025',
           description: "Hands-on research with team members and universities across China.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/young-talent-2025/";
