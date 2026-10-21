@@ -1,4 +1,5 @@
-# 量子计算芯片的集成化设计与工艺优化
+# 技术综述：量子计算芯片的集成化设计与工艺优化
+# Literature Review: Integration and Process Challenges in Quantum Computing Chips
 
 **广州外国语学校 陈子彤**
 
