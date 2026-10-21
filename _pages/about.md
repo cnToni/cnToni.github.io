@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Toni (Zitong) Chen, a high school student in Guangzhou, China. I explore connections among language, culture, science, and technology.
+Hi, I’m Toni (Zitong) Chen, a high school student in Guangzhou, China. Growing up speaking Cantonese, I have become interested in how languages are spoken, learned, and carried through communities.
 
-My projects include Cantonese learning tools, web development, and a collaborative study of social movement. I also take part in physics competitions and enjoy birdwatching and playing the cello.
+My projects have grown from Cantonese community activities into language-learning tools, audio projects, and web-based experiments with Jyutping and speech. I also explore physics, social science, birdwatching, and music.
 
 Explore my [Projects]({{ '/projects/' | relative_url }}), [Publications]({{ '/publications/' | relative_url }}), and [Repositories]({{ '/repositories/' | relative_url }}).

@@ -11,7 +11,7 @@ Started bird watching from age of 10 as a junior volunteer of Guangzhou Nature A
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/junior-bird-watchers-20180520.jpg" title="Junior volunteer in 2018" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/junior-bird-watchers-20180520.png" title="Junior volunteer in 2018" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dedicated-bird-conservationist.png" title="Urban nests survey of swallows and swifts" class="img-fluid rounded z-depth-1" %}

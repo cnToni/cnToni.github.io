@@ -8,10 +8,9 @@ category: Work
 related_publications: false
 ---
 
-Cantonese is an integral part of Chinese culture and my mother tongue. Cantonese-speaking communities have played an important role in China’s modern history.
+Growing up speaking Cantonese in Guangzhou, I became curious about how younger students could encounter the language through accessible stories and pronunciation activities. 
 
-I am committed to promoting Cantonese through community engagement. In 2025, I founded YueVoice, a Cantonese club at my high school.
-
+I was also interested in the role Cantonese-speaking communities have played in modern Chinese history. In 2025, I founded YueVoice, a Cantonese club at my high school, and began sharing the language through community activities.
 
 <div class="row justify-content-sm-center flex-sm-nowrap">
   <div class="col-sm mt-3 mt-md-0" style="flex-grow: 1.78;">
@@ -33,7 +32,9 @@ I am committed to promoting Cantonese through community engagement. In 2025, I f
     On the left, Cantonese outreach program for kindergartens, 2025. Right, YueVoice (Cantonese) club promotion in my high school, 2026.
 </div>
 
-Technology can promote Cantonese while deepening our understanding of linguistics. Inspired by an AI demonstration of Cantonese pronunciation assessment, I led the design of an interactive website with my schoolmates, using AI coding tools. The website combines classic Cantonese storytelling with Jyutping-based pronunciation practice, turning phonetic theory into an engaging tool for language learning and cultural preservation.
+These activities led me to explore how simple digital tools can support Cantonese learning and make speech more visible and accessible. 
+
+Inspired by an AI demonstration of Cantonese pronunciation assessment, I led the design of an interactive website with my schoolmates, using AI coding tools. The website combines classic Cantonese storytelling with Jyutping-based pronunciation practice, turning phonetic theory into an engaging tool for language learning and cultural preservation.
 
 The opensource repository of our website is hosted on GitHub at [https://github.com/gzfls/gzfls-cantonese.net] (https://github.com/gzfls/gzfls-cantonese.net).
 
