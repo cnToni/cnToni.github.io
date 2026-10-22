@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Cantonese Wordles
-description: A daily Cantonese Jyutping puzzle designed for school media.
+description: A Cantonese Jyutping puzzle designed for YueVoice (Cantonese) club weekly activities.
 img: assets/img/cantonese-wordles.png
 importance: 10
 category: Work
 ---
 
-Let's play a round of super brain-training Wordle! Following the classic Wordle rules, draw lines to connect adjacent letters (up, down, diagonal) with your finger to form a Jyutping syllable! 
-After a successful connection, you will see some trivia about this syllable! Each Wordle puzzle can form many different Jyutping syllables! Try to find all the hidden Jyutping syllables!
+Cantonese Wordles is a recurring warm-up activity for YueVoice’s weekly Cantonese club meetings. Displayed on the activity-room screen, it gives everyone an easy way to play and collaborate.
 
-来玩一局超级锻炼大脑的Wordle吧！遵循经典Wordle玩法，用手指把相邻（上、下、斜）的字母划线连接，来组成一个粤语拼音！
-成功连接后，你会看到关于这个拼音的一些小知识！每一个Wordle都可以组成很多个粤语拼音哦！试着把所有隐藏的粤语拼音都找出来吧！
+I developed the game using HTML, JavaScript, and AI-assisted tools, making it easy to run on the activity-room computer and play directly on this webpage.
+
+
 
 <style>
   .cantonese-wordles-embed {
