@@ -413,7 +413,7 @@ ninja.data = [{
               window.location.href = "/projects/bird-watching/";
             },},{id: "projects-cantonese-wordles",
           title: 'Cantonese Wordles',
-          description: "A daily Cantonese Jyutping puzzle designed for school media.",
+          description: "A Cantonese Jyutping puzzle designed for YueVoice (Cantonese) club weekly activities.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cantonese-wordles/";
             },},{id: "projects-phoenix-orchestra",
