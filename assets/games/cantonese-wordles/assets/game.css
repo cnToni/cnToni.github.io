@@ -395,9 +395,10 @@ button {
 
 .toast {
   position: fixed;
-  left: 50%;
-  bottom: 28px;
-  transform: translateX(-50%) translateY(calc(100% + 40px));
+  inset: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
   min-width: 220px;
   max-width: min(92vw, 440px);
   padding: 14px 18px;
@@ -406,12 +407,15 @@ button {
   color: #fff;
   text-align: center;
   box-shadow: 0 16px 32px rgba(16, 31, 31, 0.24);
-  transition: transform 200ms ease;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease, visibility 200ms ease;
   z-index: 30;
 }
 
 .toast.is-visible {
-  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .modal {
